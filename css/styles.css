@@ -171,11 +171,9 @@ img {
   color: var(--ocean);
 }
 
-.active-nav {
-  position: relative;
-}
 
-.active-nav::after {
+
+.active-link::after {
   content: '';
   position: absolute;
   left: 0;
