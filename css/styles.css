@@ -485,7 +485,7 @@ img {
   transform: translateY(100%);
 }
 
-.list-app:hover .content-p
+.list-app:hover .content-p,
 .list-app:focus .content-p {
   transform: translateY(0%);
 }
