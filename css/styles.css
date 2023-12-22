@@ -478,14 +478,15 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--ocean);
+  background-color: var(--iris);
   color: var(--cloud);
   padding: 40px 32px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
 }
 
-.list-app:hover .content-p {
+.list-app:hover .content-p
+.list-app:focus .content-p {
   transform: translateY(0%);
 }
 
