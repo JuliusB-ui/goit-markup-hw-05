@@ -350,8 +350,14 @@
             </div>
         </div>
     </footer>
-     <div class="modal-div is-hidden" data-modal>
-        <button class="modal-close" data-modal-close>CLOSE</button>
+     <div class="modal-div" data-modal>
+        <div class="modal-window">
+        <button class="modal-close" type="button" data-modal-close>
+            <svg width="24" height="24" class="close-icon">
+                <use href="./images/icons.svg#cross"/>
+            </svg>
+        </button>
+        </div>
      </div>
     <script src="./js/modal.js"></script>
 </body>
